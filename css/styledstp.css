@@ -36,7 +36,7 @@ h3 {
 }
 
 p {
-  font-size: large;
+  /* font-size: large; */
   line-height: normal;
   line-height: 1.65;
   padding: 1em;
@@ -87,21 +87,25 @@ footer > p {
   font-weight: bolder;
 }
 
-.computer {
+.computer > img {
+  padding-left: 15em;
+  padding-bottom: 7em;
   border-radius: 50%;
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 
-.notebook > img {
-  border-radius: 50%;
+.descrizione {
+  padding-left: 2em;
+  text-align: left;
+  line-height: 1.65;
+  width: 30%;
+  display: inline-block;
 }
 
 .garanzie {
   display: block;
   background-color: #ee3b03;
   color: white;
-  padding: 2em;
+  padding: 4em;
 }
 
 .garanzie > p {
@@ -126,7 +130,6 @@ footer > p {
 }
 
 .cosa-fai {
-  text-align: center;
   padding-top: 6em;
   padding-bottom: 0px;
 }
@@ -140,17 +143,24 @@ footer > p {
 }
 
 .cosa-fai > div > p {
-  /* text-align: center; */
-  width: 20%;
+  text-align: center;
   display: inline-block;
   font-size: medium;
   margin-right: 2em;
   margin-left: 2em;
 }
 
+.pc {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 0px;
+}
+
 .impara {
   display: inline-block;
-  width: 25%;
+  width: 30%;
   text-align: center;
   padding-top: 3em;
   padding-bottom: 0px;
@@ -158,16 +168,23 @@ footer > p {
 
 .lavora {
   display: inline-block;
-  width: 25%;
+  width: 30%;
   text-align: center;
   padding-top: 3em;
-  padding-bottom: 0px;
+  padding-bottom: 1em;
 }
 
-.pc {
+.computer {
+  width: 70%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 50%;
+}
+
+.lavoro {
   display: inline-block;
-  width: 25%;
-  text-align: center;
-  padding-top: 3em;
-  padding-bottom: 0px;
+}
+
+.lavoro {
+  display: inline-block;
 }

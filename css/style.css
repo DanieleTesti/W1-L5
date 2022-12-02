@@ -129,7 +129,7 @@ footer > p {
 }
 
 .cosa-fai > div > img {
-  width: 80%;
+  width: 100%;
 }
 
 .cosa-fai > h3 {
@@ -146,6 +146,18 @@ footer > p {
 }
 
 .pc {
+  border: solid #dee1e3;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.impara {
+  border: solid #dee1e3;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.lavora {
   border: solid #dee1e3;
   margin-left: 1.5em;
   margin-right: 1.5em;
