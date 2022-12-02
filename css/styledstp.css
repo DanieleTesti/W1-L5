@@ -87,15 +87,18 @@ footer > p {
   font-weight: bolder;
 }
 
-.notebook {
-  width: 70%;
+.computer {
   border-radius: 50%;
-  height: 270px;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
+.notebook > img {
+  border-radius: 50%;
+}
+
 .garanzie {
+  display: block;
   background-color: #ee3b03;
   color: white;
   padding: 2em;
@@ -124,7 +127,7 @@ footer > p {
 
 .cosa-fai {
   text-align: center;
-  padding-top: 3em;
+  padding-top: 6em;
   padding-bottom: 0px;
 }
 
@@ -138,15 +141,33 @@ footer > p {
 
 .cosa-fai > div > p {
   /* text-align: center; */
-  width: 70%;
+  width: 20%;
   display: inline-block;
   font-size: medium;
   margin-right: 2em;
   margin-left: 2em;
 }
 
+.impara {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 0px;
+}
+
+.lavora {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 0px;
+}
+
 .pc {
-  border: solid #dee1e3;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 0px;
 }
