@@ -52,22 +52,30 @@ footer {
 footer > a {
   color: white;
   inline-size: 1.65;
+  padding-top: 1.65;
 }
 
 footer > p {
   inline-size: 1.65;
 }
 
-.contatto {
-  font-weight: 600;
-  padding-bottom: 1.5em;
-}
-
 .inizio {
   background-image: url(/images/banner.jpg);
+  background-size: 600px;
+  background-position: center;
   text-align: center;
   padding: 2em;
-  /* width: 70%; */
+}
+
+.contatto {
+  font-weight: 600;
+  padding: 1em;
+  font-size: xx-large;
+}
+
+.contatto > h2 {
+  font-size: xx-large;
+  font-weight: bolder;
 }
 
 .titolo {
@@ -135,8 +143,4 @@ footer > p {
   font-size: medium;
   margin-right: 2em;
   margin-left: 2em;
-}
-
-.pc {
-  border-color: #ee3b03;
 }
