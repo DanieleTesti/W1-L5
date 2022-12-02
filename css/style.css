@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap");
+
+header {
+  background-color: rgba(0, 0, 0, 255);
+  padding: 2.5em;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: medium;
+  text-align: center;
+}
+
+button {
+  padding: 1em;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: tomato;
+  color: white;
+  border: tomato;
+  width: 40%;
+  border-radius: 5%;
+}
+
+main {
+  margin: auto;
+  color: rgb(23, 23, 23);
+}
+
+h3 {
+  padding: 1em;
+  color: #23a9cc;
+  font-size: large;
+  font-weight: bold;
+}
+
+p {
+  font-size: large;
+  line-height: normal;
+  line-height: 1.65;
+  padding: 1em;
+  padding-top: 0.5em;
+}
+
+footer {
+  background-color: #29a0cb;
+  padding: 1.5em;
+  color: white;
+}
+
+footer > a {
+  color: white;
+  inline-size: 1.65;
+}
+
+footer > p {
+  inline-size: 1.65;
+}
+
+.contatto {
+  font-weight: 600;
+  padding-bottom: 1.5em;
+}
+
+.inizio {
+  background-image: url(/images/banner.jpg);
+  text-align: center;
+  padding: 2em;
+  /* width: 70%; */
+}
+
+.titolo {
+  font-family: "Monserrat", sans-serif;
+  padding: 1.5em;
+  padding-bottom: 0.5em;
+  color: #23a9cc;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.notebook {
+  width: 70%;
+  border-radius: 50%;
+  height: 270px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.garanzie {
+  background-color: #ee3b03;
+  color: white;
+  padding: 2em;
+}
+
+.garanzie > p {
+  font-size: small;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.garanzie > h4 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.garanzie > h5 {
+  font-size: large;
+  font-weight: 400;
+}
+
+.ceo {
+  padding-top: 0.5em;
+  font-size: small;
+}
+
+.cosa-fai {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 0px;
+}
+
+.cosa-fai > div > img {
+  width: 80%;
+}
+
+.cosa-fai > h3 {
+  padding-bottom: 0px;
+}
+
+.cosa-fai > div > p {
+  /* text-align: center; */
+  width: 70%;
+  display: inline-block;
+  font-size: medium;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.pc {
+  border-color: #ee3b03;
+}
