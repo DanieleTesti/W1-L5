@@ -19,7 +19,6 @@ button {
   background-color: tomato;
   color: white;
   border: tomato;
-  width: 40%;
   border-radius: 5%;
 }
 
@@ -36,7 +35,6 @@ h3 {
 }
 
 p {
-  /* font-size: large; */
   line-height: normal;
   line-height: 1.65;
   padding: 1em;
@@ -57,14 +55,18 @@ footer > a {
 
 footer > p {
   inline-size: 1.65;
+  color: white;
+}
+
+footer > hr {
+  width: 15%;
 }
 
 .inizio {
   background-image: url(/images/banner.jpg);
-  background-size: 600px;
   background-position: center;
   text-align: center;
-  padding: 2em;
+  padding: 20vh;
 }
 
 .contatto {
@@ -88,8 +90,8 @@ footer > p {
 }
 
 .computer > img {
-  padding-left: 15em;
-  padding-bottom: 7em;
+  margin-left: 15em;
+  margin-bottom: 7em;
   border-radius: 50%;
 }
 
@@ -109,7 +111,7 @@ footer > p {
 }
 
 .garanzie > p {
-  font-size: small;
+  font-size: large;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
@@ -175,14 +177,13 @@ footer > p {
 }
 
 .computer {
-  width: 70%;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   border-radius: 50%;
 }
 
-.lavoro {
-  display: inline-block;
+.descrizione > p {
+  line-height: 1;
 }
 
 .lavoro {
